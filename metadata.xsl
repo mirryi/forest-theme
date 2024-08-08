@@ -118,6 +118,14 @@
     </li>
   </xsl:template>
 
+  <xsl:template match="f:meta[@name='isbn']">
+    <li class="meta-item">
+      <a class="doi link" href="{concat('https://search.worldcat.org/search?q=', .)}">
+        <xsl:value-of select="." />
+      </a>
+    </li>
+  </xsl:template>
+
   <xsl:template match="f:meta[@name='orcid']">
     <li class="meta-item">
       <a class="orcid" href="{concat('https://orcid.org/', .)}">

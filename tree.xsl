@@ -210,6 +210,7 @@
           <xsl:apply-templates select="f:meta[@name='venue']" />
           <xsl:apply-templates select="f:meta[@name='source']" />
           <xsl:apply-templates select="f:meta[@name='doi']" />
+          <xsl:apply-templates select="f:meta[@name='isbn']" />
           <xsl:apply-templates select="f:meta[@name='orcid']" />
           <xsl:apply-templates select="f:meta[@name='external']" />
           <xsl:apply-templates select="f:meta[@name='slides']" />
