@@ -89,14 +89,14 @@
   font-family: 'Shippori Mincho';
   font-style: normal;
   font-weight: 400;
-  src: url('fonts/ShipporiMincho-Regular.ttf') format('truetype');
+  src: url('fonts/ShipporiMincho-Regular.woff') format('woff2');
 }
 
 @font-face {
   font-display: swap;
   font-family: 'Shippori Mincho';
   font-weight: 700;
-  src: url('fonts/ShipporiMincho-Bold.ttf') format('truetype');
+  src: url('fonts/ShipporiMincho-Bold.woff') format('woff2');
 }
 
 :root {
