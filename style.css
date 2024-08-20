@@ -89,14 +89,21 @@
   font-family: 'Shippori Mincho';
   font-style: normal;
   font-weight: 400;
-  src: url('fonts/ShipporiMincho-Regular.woff') format('woff2');
+  src: url('fonts/ShipporiMincho-Regular.woff') format('woff');
 }
 
 @font-face {
   font-display: swap;
   font-family: 'Shippori Mincho';
   font-weight: 700;
-  src: url('fonts/ShipporiMincho-Bold.woff') format('woff2');
+  src: url('fonts/ShipporiMincho-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Noto Serif TC';
+  font-weight: 400;
+  src: url('fonts/NotoSerifTC-VariableFont_wght.woff') format('woff');
 }
 
 :root {
@@ -157,7 +164,7 @@ code {
 }
 
 body {
-  font-family: "Junicode", "Shippori Mincho";
+  font-family: "Junicode", "Shippori Mincho", "Noto Serif TC";
   font-size: 12pt;
   line-height: 1.55;
 }
@@ -463,7 +470,7 @@ td.macro-doc {
 }
 
 [aria-label][role~="tooltip"]::after {
-  font-family: "Junicode", "Shippori Mincho";
+  font-family: "Junicode", "Shippori Mincho", "Noto Serif TC";
 }
 
 .tooltip {
