@@ -120,7 +120,7 @@
 
   <xsl:template match="f:meta[@name='isbn']">
     <li class="meta-item">
-      <a class="doi link" href="{concat('https://search.worldcat.org/search?q=', .)}">
+      <a class="isbn link" href="{concat('https://search.worldcat.org/search?q=', .)}">
         <xsl:value-of select="." />
       </a>
     </li>
@@ -157,7 +157,7 @@
   <xsl:template match="f:meta[@name='slides']">
     <li class="meta-item">
       <a class="link external" href="{.}">
-        <xsl:text>Slides</xsl:text>
+        <xsl:text>slides</xsl:text>
       </a>
     </li>
   </xsl:template>
@@ -165,9 +165,16 @@
   <xsl:template match="f:meta[@name='video']">
     <li class="meta-item">
       <a class="link external" href="{.}">
-        <xsl:text>Video</xsl:text>
+        <xsl:text>video</xsl:text>
       </a>
     </li>
   </xsl:template>
 
+  <xsl:template match="f:meta[@name='github']">
+    <li class="meta-item">
+      <a class="link external" href="{.}">
+        github
+      </a>
+    </li>
+  </xsl:template>
 </xsl:stylesheet>

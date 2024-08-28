@@ -389,7 +389,9 @@ nav#toc li {
 
 .slug,
 .doi,
-.orcid {
+.orcid,
+.isbn,
+.github {
   color: gray;
   font-weight: 200;
 }
