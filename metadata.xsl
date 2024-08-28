@@ -134,6 +134,22 @@
     </li>
   </xsl:template>
 
+  <xsl:template match="f:meta[@name='github']">
+    <li class="meta-item">
+      <a class="link external" href="{.}">
+        github
+      </a>
+    </li>
+  </xsl:template>
+
+  <xsl:template match="f:meta[@name='crate']">
+    <li class="meta-item">
+      <a class="link external" href="{concat('https://crates.io/crates/', .)}">
+        crate
+      </a>
+    </li>
+  </xsl:template>
+
   <xsl:template match="f:meta[@name='bibtex']">
     <pre>
       <xsl:value-of select="." />
@@ -166,14 +182,6 @@
     <li class="meta-item">
       <a class="link external" href="{.}">
         <xsl:text>video</xsl:text>
-      </a>
-    </li>
-  </xsl:template>
-
-  <xsl:template match="f:meta[@name='github']">
-    <li class="meta-item">
-      <a class="link external" href="{.}">
-        github
       </a>
     </li>
   </xsl:template>
