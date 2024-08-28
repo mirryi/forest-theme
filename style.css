@@ -72,6 +72,20 @@
 
 @font-face {
   font-display: swap;
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  src: url('fonts/JetBrainsMono-VariableFont_wght.woff') format('woff');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'JetBrains Mono';
+  font-style: italic;
+  src: url('fonts/JetBrainsMono-Italic-VariableFont_wght.woff') format('woff');
+}
+
+@font-face {
+  font-display: swap;
   font-family: 'Junicode';
   font-style: normal;
   src: url('fonts/JunicodeVF-Roman.woff2') format('woff2');
@@ -102,21 +116,18 @@
 @font-face {
   font-display: swap;
   font-family: 'Noto Serif TC';
-  font-weight: 400;
   src: url('fonts/NotoSerifTC-VariableFont_wght.woff') format('woff');
 }
 
 @font-face {
   font-display: swap;
   font-family: 'Noto Serif HK';
-  font-weight: 400;
   src: url('fonts/NotoSerifHK-VariableFont_wght.woff') format('woff');
 }
 
 @font-face {
   font-display: swap;
   font-family: 'Cactus Classical Serif';
-  font-weight: 400;
   src: url('fonts/CactusClassicalSerif-Regular.woff') format('woff');
 }
 
@@ -160,7 +171,7 @@ pre {
   border-radius: var(--radius);
   background-color: rgba(0, 100, 100, 0.04);
   padding: .5em;
-  font-size: 11pt;
+  font-size: 9pt;
   margin-top: 0em;
   overflow-x: auto;
   white-space: pre-wrap;
@@ -168,6 +179,7 @@ pre {
   white-space: -pre-wrap;
   white-space: -o-pre-wrap;
   word-wrap: break-word;
+  font-family: "JetBrains Mono";
 }
 
 code {
