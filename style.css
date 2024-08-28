@@ -131,6 +131,12 @@
   src: url('fonts/CactusClassicalSerif-Regular.woff') format('woff');
 }
 
+@font-face {
+  font-display: swap;
+  font-family: 'M PLUS 1 Code';
+  src: url('fonts/MPLUS1Code-VariableFont_wght.woff') format('woff');
+}
+
 :root {
   --content-gap: 15px;
   --radius: 5px;
@@ -179,7 +185,7 @@ pre {
   white-space: -pre-wrap;
   white-space: -o-pre-wrap;
   word-wrap: break-word;
-  font-family: "JetBrains Mono";
+  font-family: "JetBrains Mono", "M PLUS 1 Code";
 }
 
 code {
