@@ -106,6 +106,20 @@
   src: url('fonts/NotoSerifTC-VariableFont_wght.woff') format('woff');
 }
 
+@font-face {
+  font-display: swap;
+  font-family: 'Noto Serif HK';
+  font-weight: 400;
+  src: url('fonts/NotoSerifHK-VariableFont_wght.woff') format('woff');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Cactus Classical Serif';
+  font-weight: 400;
+  src: url('fonts/CactusClassicalSerif-Regular.woff') format('woff');
+}
+
 :root {
   --content-gap: 15px;
   --radius: 5px;
@@ -164,7 +178,7 @@ code {
 }
 
 body {
-  font-family: "Junicode", "Shippori Mincho", "Noto Serif TC";
+  font-family: "Junicode", "Shippori Mincho", "Noto Serif TC", "Noto Serif HK", "Cactus Classical Serif";
   font-size: 12pt;
   line-height: 1.55;
 }
@@ -472,7 +486,7 @@ td.macro-doc {
 }
 
 [aria-label][role~="tooltip"]::after {
-  font-family: "Junicode", "Shippori Mincho", "Noto Serif TC";
+  font-family: "Junicode", "Shippori Mincho", "Noto Serif TC", "Noto Serif HK", "Cactus Classical Serif";
 }
 
 .tooltip {
