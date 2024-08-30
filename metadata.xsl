@@ -110,6 +110,12 @@
     </xsl:if>
   </xsl:template>
 
+  <xsl:template match="f:meta[@name='original']">
+    <li class="meta-item">
+      <xsl:apply-templates />
+    </li>
+  </xsl:template>
+
   <xsl:template match="f:meta[@name='doi']">
     <li class="meta-item">
       <a class="doi link" href="{concat('https://www.doi.org/', .)}">

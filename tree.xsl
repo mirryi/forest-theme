@@ -205,6 +205,7 @@
           <xsl:if test="not(f:meta[@name = 'author']/.='false')">
             <xsl:apply-templates select="f:authors" />
           </xsl:if>
+          <xsl:apply-templates select="f:meta[@name='original']" />
           <xsl:apply-templates select="f:meta[@name='position']" />
           <xsl:apply-templates select="f:meta[@name='institution']" />
           <xsl:apply-templates select="f:meta[@name='venue']" />
