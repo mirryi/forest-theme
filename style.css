@@ -214,9 +214,25 @@ code {
 }
 
 body {
-  font-family: "Junicode", "Shippori Mincho", "Noto Serif TC", "Noto Serif HK", "Cactus Classical Serif";
+  font-family: "Junicode";
   font-size: 12pt;
   line-height: 1.55;
+}
+
+span[lang="ang"] {
+  font-family: "Junicode";
+}
+
+span[lang="ja"] {
+  font-family: "Shippori Mincho", "Noto Serif TC", "Noto Serif HK", "Cactus Classical Serif", "Noto Sans TC", "Chocolate Classical Sans";
+}
+
+span[lang="zh-hans"] {
+  font-family: "Noto Serif SC", "Noto Serif TC", "Noto Serif HK", "Cactus Classical Serif", "Noto Sans TC", "Chocolate Classical Sans";
+}
+
+span[lang="zh-hant"] {
+  font-family: "Noto Serif TC", "Noto Serif HK", "Cactus Classical Serif", "Noto Sans TC", "Chocolate Classical Sans";
 }
 
 math {
@@ -522,7 +538,7 @@ td.macro-doc {
 }
 
 [aria-label][role~="tooltip"]::after {
-  font-family: "Junicode", "Shippori Mincho", "Noto Serif TC", "Noto Serif HK", "Cactus Classical Serif";
+  font-family: "Junicode", "Shippori Mincho", "Noto Serif SC", "Noto Serif TC", "Noto Serif HK", "Cactus Classical Serif";
 }
 
 .tooltip {
