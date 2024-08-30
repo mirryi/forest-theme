@@ -139,6 +139,18 @@
 
 @font-face {
   font-display: swap;
+  font-family: 'Noto Sans TC';
+  src: url('fonts/NotoSansTC-VariableFont_wght.woff') format('woff');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Chocolate Classical Sans';
+  src: url('fonts/ChocolateClassicalSans-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-display: swap;
   font-family: 'M PLUS 1 Code';
   src: url('fonts/MPLUS1Code-VariableFont_wght.woff') format('woff');
 }
