@@ -115,6 +115,12 @@
 
 @font-face {
   font-display: swap;
+  font-family: 'Noto Serif SC';
+  src: url('fonts/NotoSerifSC-VariableFont_wght.woff') format('woff');
+}
+
+@font-face {
+  font-display: swap;
   font-family: 'Noto Serif TC';
   src: url('fonts/NotoSerifTC-VariableFont_wght.woff') format('woff');
 }
