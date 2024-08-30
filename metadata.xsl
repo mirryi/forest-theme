@@ -185,4 +185,12 @@
       </a>
     </li>
   </xsl:template>
+
+  <xsl:template match="f:meta[@name='homepage']">
+    <li class="meta-item">
+      <a class="link external" href="{.}">
+        homepage
+      </a>
+    </li>
+  </xsl:template>
 </xsl:stylesheet>

@@ -212,11 +212,12 @@
           <xsl:apply-templates select="f:meta[@name='doi']" />
           <xsl:apply-templates select="f:meta[@name='isbn']" />
           <xsl:apply-templates select="f:meta[@name='orcid']" />
+          <xsl:apply-templates select="f:meta[@name='homepage']" />
           <xsl:apply-templates select="f:meta[@name='github']" />
           <xsl:apply-templates select="f:meta[@name='crate']" />
-          <xsl:apply-templates select="f:meta[@name='external']" />
           <xsl:apply-templates select="f:meta[@name='slides']" />
           <xsl:apply-templates select="f:meta[@name='video']" />
+          <xsl:apply-templates select="f:meta[@name='external']" />
         </ul>
       </div>
     </header>
