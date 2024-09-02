@@ -176,6 +176,14 @@
     </li>
   </xsl:template>
 
+  <xsl:template match="f:meta[@name='pdf']">
+    <li class="meta-item">
+      <a class="link external" href="{.}">
+        <xsl:text>pdf</xsl:text>
+      </a>
+    </li>
+  </xsl:template>
+
   <xsl:template match="f:meta[@name='slides']">
     <li class="meta-item">
       <a class="link external" href="{.}">
