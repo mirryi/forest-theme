@@ -217,6 +217,7 @@
           <xsl:apply-templates select="f:meta[@name='github']" />
           <xsl:apply-templates select="f:meta[@name='crate']" />
           <xsl:apply-templates select="f:meta[@name='pdf']" />
+          <xsl:apply-templates select="f:meta[@name='artifact']" />
           <xsl:apply-templates select="f:meta[@name='slides']" />
           <xsl:apply-templates select="f:meta[@name='video']" />
           <xsl:apply-templates select="f:meta[@name='external']" />
