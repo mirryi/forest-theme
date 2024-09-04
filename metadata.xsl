@@ -142,7 +142,7 @@
 
   <xsl:template match="f:meta[@name='github']">
     <li class="meta-item">
-      <a class="link external" href="{.}">
+      <a class="link external" href="{concat('https://github.com/', .)}">
         github
       </a>
     </li>
