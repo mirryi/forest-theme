@@ -207,15 +207,16 @@ pre {
 }
 
 code {
-  border-radius: var(--radius);
-  background-color: rgba(0, 100, 100, 0.04);
-  padding: 0.2em;
-  font-size: 0.9em;
+  /* border-radius: var(--radius); */
+  /* background-color: rgba(0, 100, 100, 0.04); */
+  /* padding: 0.2em; */
+  font-size: 0.75em;
+  font-family: "JetBrains Mono", "M PLUS 1 Code";
 }
 
 body {
   font-family: "Junicode";
-  font-size: 12pt;
+  font-size: 14pt;
   line-height: 1.55;
 }
 
