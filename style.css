@@ -195,7 +195,7 @@ pre {
   border-radius: var(--radius);
   background-color: rgba(0, 100, 100, 0.04);
   padding: .5em;
-  font-size: 9pt;
+  font-size: 0.7em;
   margin-top: 0em;
   overflow-x: auto;
   white-space: pre-wrap;
@@ -279,7 +279,7 @@ footer>section {
 }
 
 footer h2 {
-  font-size: 14pt;
+  font-size: 1.2em;
 }
 
 .metadata>address {
@@ -309,7 +309,7 @@ footer h2 {
 
   #grid-wrapper {
     display: grid;
-    grid-template-columns: 90ex;
+    grid-template-columns: 110ex;
   }
 }
 
@@ -318,7 +318,7 @@ body>header {
 }
 
 #grid-wrapper>article {
-  max-width: 90ex;
+  max-width: 110ex;
   margin-right: auto;
   grid-column: 1;
 }
@@ -336,12 +336,12 @@ a.heading-link {
 }
 
 details h1 {
-  font-size: 13pt;
+  font-size: 1.1em;
   display: inline;
 }
 
 section .block[data-taxon] details>summary>header>h1 {
-  font-size: 12pt;
+  font-size: 1em;
 }
 
 span.taxon {
@@ -351,7 +351,7 @@ span.taxon {
 
 
 .link-list>section>details>summary>header h1 {
-  font-size: 12pt;
+  font-size: 1em;
 }
 
 
@@ -393,7 +393,7 @@ nav#toc {
 
 nav#toc h1 {
   margin-top: 0;
-  font-size: 16pt;
+  font-size: 1.3em;
 }
 
 nav#toc,
